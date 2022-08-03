@@ -16,13 +16,13 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
+    ndkVersion "21.4.7075529"
 
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
-        ndkVersion "21.4.7075529"
         ndk {
             abiFilters "armeabi-v7a", "x86",
         }
